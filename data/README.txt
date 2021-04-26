@@ -1,5 +1,3 @@
-This folder contains data for Project 2 for the CSC420 class: http://www.cs.utoronto.ca/~fidler/teaching/2015/CSC420.html
-
 The directory train and test contain the main data to work with. You are provided with the stereo images (left and right image), as well as annotations for the road. You are allowed to train your algorithms on 'train' but *not* on test. The results for which the project instructions ask for need to be done on 'test'. Each folder has image_left and image_right subfolders containing the images, a calib folder which contains the calibration (use devkit/loadCalibration.m to read it) and gt_image_left for ground-truth annotation for road.
 More information about the format can be found in the devkit directory.
 
